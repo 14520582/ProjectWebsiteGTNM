@@ -1,0 +1,98 @@
+.video-container{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.menu{
+  position: fixed;
+  left: 0;
+  bottom: 50px;
+  z-index: 500;
+}
+
+.menu > div{
+  display: block;
+  margin-bottom: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu > div:hover{
+  background-color: #000;
+}
+
+.menu > div > button{
+  margin: 10px;
+  padding: 0;
+  border: 0;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+}
+
+.menu > div > button > img{
+  width: 100%;
+  height: auto;
+}
+
+.menu > div > .content{
+  position: fixed;
+  left: 50px;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #FFF;
+  overflow:auto;
+}
+
+.menu .content > .title{
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 10px 0;
+  padding-left: 15px;
+}
+
+.menu .content > .time{
+  display: inline-block;
+  float: right;
+  font-size: 0.8em;
+  border: 1px solid white;
+  border-radius: 20%;
+  margin-bottom: 25px;
+  padding: 5px;
+}
+
+.menu .content > .clear{
+  clear: both;
+}
+
+.menu .content > table{
+  font-size: 1em;
+  color: #FFF;
+}
+
+.menu .content > table tr{
+  border-top: 1px dashed #FFF;
+}
+
+.menu .content > table td{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menu .content > table td:last-child{
+  text-align: right;
+}
+
+.menu .content .film-list > div > p{
+  font-size: 1.5em;
+  font-weight: bold;
+  font-variant: normal;
+  color: #FFF;
+  margin-bottom: 10px;
+}
+
+.menu .content .film-list .film-item > p{
+  color: #FFF;
+}

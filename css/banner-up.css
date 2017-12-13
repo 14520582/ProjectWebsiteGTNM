@@ -1,0 +1,154 @@
+.banner-up{
+  position: relative;
+  /*background-image: url("../images/curtain.png");*/
+  width: 100%;
+  text-align: center;
+  background-size: cover;
+  background-position: top center;
+}
+
+.mosaic{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  -webkit-column-count: 5;
+  -webkit-column-gap: 10px;
+  -moz-column-count: 5;
+  -moz-column-gap: 10px;
+  column-count: 5;
+  column-gap: 10px;
+}
+
+.mosaic-items{
+  display: inline-block;
+  width: 100%;
+  background-color: white;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: transform 1s, opacity 1s, z-index 1s;
+}
+
+.mosaic-items img{
+  width: 100%;
+  height: auto;
+}
+
+.mosaic-items:hover{
+  transform: scale(2);
+  opacity: 1;
+  z-index: 100;
+}
+
+.mosaic-items-hover{
+  z-index: 100;
+}
+
+
+/*------------*/
+/* FILM-SECTION  */
+/*------------*/
+
+/*.film-section{
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.film-section .text-first{
+  margin-top: 100px;
+}
+
+.film-section a{
+  color: #ECF06E;
+}
+
+.film-section p{
+  font-family: "toms handwritten new";
+  font-size: 30px;
+  font-variant: small-caps;
+}
+
+.film-section a:hover{
+  color: yellow;
+  text-decoration: none;
+}
+
+.film-section img{
+  width: 100px;
+  height: auto;
+  z-index: 20;
+  border-radius: 50%;
+}*/
+
+/*------------*/
+/* TOOLTIP     */
+/*------------*/
+
+.tool-tip{
+  display: none;
+  position: absolute;
+  width: 400px;
+  max-height: 200px;
+  background-color: #ECF06E;
+  color: black;
+  padding: 5px 10px;
+  z-index: 200;
+  overflow: hidden;
+  text-align: left;
+}
+
+#title{
+  font-weight: bold;
+}
+
+/*------------*/
+/* MEDIA */
+/*------------*/
+
+@media (max-width: 992px) {
+  .mosaic{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 10px;
+    -moz-column-count: 4;
+    -moz-column-gap: 10px;
+    column-count: 4;
+    column-gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mosaic{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 10px;
+    -moz-column-count: 3;
+    -moz-column-gap: 10px;
+    column-count: 3;
+    column-gap: 10px;
+  }
+
+  .film-section .text-first{
+    margin-top: 0;
+  }
+
+  .film-section img{
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .mosaic{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 10px;
+    -moz-column-count: 2;
+    -moz-column-gap: 10px;
+    column-count: 2;
+    column-gap: 10px;
+  }
+}
