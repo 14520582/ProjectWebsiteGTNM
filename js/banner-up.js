@@ -61,11 +61,11 @@ $(document).ready(function(){
   });
 
   // avoid mosaic-items overlap img and p in film-section
-  $('.film-section img, p').mousemove(function(e){
+  /*$('.film-section img, p').mousemove(function(e){
     e.stopPropagation();
   }).mouseleave(function(e){
     e.stopPropagation();
-  });
+  });*/
 
   // show and hide tooltip
   $('.mosaic-items').on({
@@ -83,7 +83,7 @@ $(document).ready(function(){
 
   // limit fim-section scroll in mosaic
 
-  $(window).scroll(function(e){
+  /*$(window).scroll(function(e){
       var filmSectionTop = $('.film-section').offset().top;
       var filmSectionBottom = filmSectionTop + $('.film-section').height();
       var scrollPos = $(document).scrollTop();
@@ -94,7 +94,7 @@ $(document).ready(function(){
       else{
         $('.film-section').show();
       }
-  });
+  });*/
 });
 
 function displayTooltip (x, y){

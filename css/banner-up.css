@@ -119,7 +119,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .mosaic{
     padding-top: 100px;
     padding-bottom: 100px;
