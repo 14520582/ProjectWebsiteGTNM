@@ -9,7 +9,7 @@
   text-align: right;
   padding: 0;
   margin-bottom: 2px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(112, 70, 32, 0.5);
 }
 
 .search-form input[type = "button"]{
@@ -19,7 +19,7 @@
   background-size: 30px;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(112, 70, 32, 0.5);
   border: 0;
 }
 

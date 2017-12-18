@@ -1,9 +1,4 @@
-/*--A Design by W3layouts 
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 body a {
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -11,11 +6,7 @@ body a {
   -moz-transition: 0.5s all;
   -ms-transition: 0.5s all;
 }
-html, body{
-    font-size: 100%;
-    font-family: 'Roboto Condensed', sans-serif;
-    background: #FFFFFF;
-}
+
 .news-grids {
     padding: 4em 0;
 }
@@ -32,11 +23,11 @@ h2.latest-text{
     margin: 0 0 2em 0;
 }
 .breadcrumb {
-	background:#ffffff;
+	/*background:#ffffff;
     box-shadow: 0px 0 2px #C1C1C1 !important;
     -o-box-shadow: 0px 0 2px #C1C1C1 !important;
     -moz-box-shadow: 0px 0 2px #C1C1C1 !important;
-    -ms-box-shadow: 0px 0 2px #C1C1C1 !important;
+    -ms-box-shadow: 0px 0 2px #C1C1C1 !important;*/
 }
 ol.breadcrumb li a{
     color: #000000 !important;
@@ -351,7 +342,7 @@ ol.breadcrumb li a{
 	.wthree-news-right-top {
 		min-height: 660px;
 	}
-	
+
 	h4.news-latest-text {
 		font-size: 1.7em !important;
 	}

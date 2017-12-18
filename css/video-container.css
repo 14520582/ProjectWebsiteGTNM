@@ -1,26 +1,32 @@
 .video-container{
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
-.menu{
+.video-container > video{
+  border: 1px solid #cc9966;
+  padding: 0;
+  object-fit: cover;
+}
+
+.video-menu{
   position: fixed;
   left: 0;
   bottom: 50px;
   z-index: 500;
 }
 
-.menu > div{
+.video-menu > div{
   display: block;
   margin-bottom: 5px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(112, 70, 32, 0.5);
 }
 
-.menu > div:hover{
-  background-color: #000;
+.video-menu > div:hover{
+  background-color: #cc9966;
 }
 
-.menu > div > button{
+.video-menu > div > button{
   margin: 10px;
   padding: 0;
   border: 0;
@@ -29,70 +35,76 @@
   background-color: transparent;
 }
 
-.menu > div > button > img{
+.video-menu > div > button > img{
   width: 100%;
   height: auto;
 }
 
-.menu > div > .content{
+.video-menu > div > .content{
   position: fixed;
   left: 50px;
   right: 0;
   bottom: 0;
   opacity: 0;
   padding: 10px 20px;
-  background-color: #000;
-  color: #FFF;
+  background-color: #cc9966;
+  color: #663333;
   overflow:auto;
 }
 
-.menu .content > .title{
+.video-menu .content > .title{
   font-size: 1.5em;
   font-weight: bold;
   margin: 10px 0;
   padding-left: 15px;
+  text-align: center;
 }
 
-.menu .content > .time{
+.video-menu .content > .time{
   display: inline-block;
   float: right;
   font-size: 0.8em;
-  border: 1px solid white;
+  border: 1px solid #000;
   border-radius: 20%;
   margin-bottom: 25px;
+  margin-right: 10px;
   padding: 5px;
 }
 
-.menu .content > .clear{
+.video-menu .content > .clear{
   clear: both;
 }
 
-.menu .content > table{
+.video-menu .content > table{
   font-size: 1em;
-  color: #FFF;
+  color: #000;
 }
 
-.menu .content > table tr{
-  border-top: 1px dashed #FFF;
+.video-menu .content > table tr{
+  border-top: 1px dashed #000;
 }
 
-.menu .content > table td{
+.video-menu .content > table td{
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.menu .content > table td:last-child{
+.video-menu .content > table td:last-child{
   text-align: right;
 }
 
-.menu .content .film-list > div > p{
+.video-menu .content .film-list > div{
+  border: 0;
+}
+
+.video-menu .content .film-list > div > p{
   font-size: 1.5em;
   font-weight: bold;
   font-variant: normal;
-  color: #FFF;
-  margin-bottom: 10px;
+  color: #663333;
+  margin-bottom: 30px;
 }
 
-.menu .content .film-list .film-item > p{
-  color: #FFF;
+.video-menu .content .film-list .film-item > p{
+  color: #000;
 }

@@ -14,14 +14,28 @@ $(document).ready(function(){
   $('.film-description').css('width', $('.film-item')[0].offsetWidth + scrollbarHeight + 1);
 
   // auto scroll film-items
+  var maxScrollLeft = $('.film-items').get(0).scrollWidth - $('.film-items').get(0).clientWidth;
+
   $('.film-list > div > .back').click(function(e){
     var obj = $(this).parent().find('.film-items');
-    obj.scrollLeft(obj.scrollLeft() - autoscrollSize);
+
+    if(obj.scrollLeft() > 0){
+      obj.animate({scrollLeft: obj.scrollLeft() - autoscrollSize}, 1000);
+    }
+    else{
+      obj.animate({scrollLeft: maxScrollLeft}, 1000);
+    }
   });
 
   $('.film-list > div > .next').click(function(e){
     var obj = $(this).parent().find('.film-items');
-    obj.scrollLeft(obj.scrollLeft() + autoscrollSize);
+
+    if(obj.scrollLeft() < maxScrollLeft){
+      obj.animate({scrollLeft: obj.scrollLeft() + autoscrollSize}, 1000);
+    }
+    else {
+      obj.animate({scrollLeft: 0}, 1000);
+    }
   });
 
 });
