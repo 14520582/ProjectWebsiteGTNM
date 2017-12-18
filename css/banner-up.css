@@ -1,10 +1,10 @@
 .banner-up{
   position: relative;
-  /*background-image: url("../images/curtain.png");*/
   width: 100%;
   text-align: center;
   background-size: cover;
   background-position: top center;
+  filter:
 }
 
 .mosaic{

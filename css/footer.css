@@ -1,5 +1,5 @@
 .footer-bs {
-  border-top: 3px solid #000;
+  border-top: 3px solid #663333;
   overflow: auto;
 	padding: 40px 40px;
 	color: #000;
@@ -53,5 +53,5 @@
 }
 
 @media (min-width: 768px) {
-	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px #000; }
+	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px #663333; }
 }
