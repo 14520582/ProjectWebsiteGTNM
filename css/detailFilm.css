@@ -1,16 +1,16 @@
 .container {
-  width: 100%;
+  /*width: 100%;
   padding: 0px 160px 40px 160px;
   clear: right;
   overflow: hidden;
-  float: right;
+  float: right;*/
   font-size: 13px;
 }
 
 .IntroduceArea {
-  width: 100%;
+  /*width: 100%;
   padding: 0px 160px 0px 160px;
-  overflow: hidden;
+  overflow: hidden;*/
   font-size: 13px;
 }
 
@@ -33,17 +33,32 @@
 div.MinorDetailsDiv {
   padding-bottom: 10px;
   border-top: 1px solid #8f8e8b;
-  border-bottom: 5px solid #050708;
+  border-bottom: 1px solid #8f8e8b;
+}
+
+.MinorDetailsDiv .imageMovie > a{
+  display: block;
+}
+
+.MinorDetailsDiv .imageMovie > a:first-child{
+  margin-bottom: 10px;
+}
+
+.MinorDetailsDiv .info a{
+  color: #663333;
+  font-weight: bold;
 }
 
 .imageMovie {
-  width: 30px;
-  height: 20px;
+  padding-left: 0;
+  /*width: 30px;
+  height: 20px;*/
 }
 
 .imageMovie img {
-  width: 160px;
-  height: 170px;
+  /*width: 160px;
+  height: 170px;*/
+  width: 100%;
 }
 
 .IntroduceArea h1 {
@@ -53,7 +68,7 @@ div.MinorDetailsDiv {
   font-size: 28px;
   font-weight: bold;
   letter-spacing: 2px;
-  margin-bottom: 10px;
+  margin: 50px 0 20px 0;
   text-transform: uppercase;
   width: 635px;
 }
@@ -114,7 +129,7 @@ h2 {
   margin-bottom: 20px;
   color: #050708;
   line-height: 18px;
-  padding-left: 190px;
+  /*padding-left: 190px;*/
 }
 
 .Content p {
@@ -122,6 +137,7 @@ h2 {
   margin-bottom: 20px;
   color: #050708;
   line-height: 18px;
+  font-size: 15px;
 }
 
 p {

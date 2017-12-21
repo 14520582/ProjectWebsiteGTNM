@@ -943,6 +943,10 @@ h3.head {
 	-moz-opacity: 0;
 	filter: alpha(opacity=0);
 }
+
+.general-agileits-w3l .title-head .container .breadcrumb{
+
+}
 /*-- //to-top --*/
 /*-----start-responsive-design------*/
 @media (max-width:1280px){
