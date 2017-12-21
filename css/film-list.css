@@ -18,16 +18,17 @@
 
 .film-list > div > a{
   color: #663333;
-  font-family: "toms handwritten new";
-  font-size: 30px;
-  font-variant: small-caps;
+  font-family: courier;
   font-weight: bold;
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
 .film-items{
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
+  margin-top: 20px;
 }
 
 .film-item{

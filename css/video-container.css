@@ -50,24 +50,23 @@
   background-color: #cc9966;
   color: #663333;
   overflow:auto;
+  text-align: center;
 }
 
 .video-menu .content > .title{
   font-size: 1.5em;
   font-weight: bold;
-  margin: 10px 0;
-  padding-left: 15px;
-  text-align: center;
+  font-variant: normal;
+  margin: 20px 0 10px 0;
 }
 
 .video-menu .content > .time{
   display: inline-block;
-  float: right;
   font-size: 0.8em;
   border: 1px solid #000;
   border-radius: 20%;
-  margin-bottom: 25px;
-  margin-right: 10px;
+  margin-bottom: 30px;
+  /*margin-right: 10px;*/
   padding: 5px;
 }
 
@@ -89,8 +88,24 @@
   padding-bottom: 10px;
 }
 
+.video-menu .content > table td:first-child{
+  color: #663333;
+  font-weight: bold;
+}
+
 .video-menu .content > table td:last-child{
   text-align: right;
+}
+
+.video-menu .content > table tr > td a{
+  color: #000;
+}
+
+.video-menu .content > table tr > td a:hover{
+  color: #663333;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5rem;
 }
 
 .video-menu .content .film-list > div{
@@ -102,7 +117,7 @@
   font-weight: bold;
   font-variant: normal;
   color: #663333;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 .video-menu .content .film-list .film-item > p{

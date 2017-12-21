@@ -1,0 +1,134 @@
+.container{
+  width: 100%;
+  text-align: center;
+  margin-top:100px;
+}
+
+.contact-form{
+	margin-left:30px;
+	margin-top:40px;
+  margin-bottom: 40px;
+  width: 60%;
+  padding: 1px 8px;
+  border: 2px solid #663333;
+  border-radius: 8px;
+  margin-left: 20%;
+  text-align: left;
+
+
+
+}
+.flex-container{
+	display:flex;
+	flex-direction:row;
+}
+
+.contact-form input[type=text] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+	font: normal 20px courier !important;
+
+}
+
+.contact-form textarea {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+	font: normal 20px courier !important;
+    resize: none;
+	height:100px
+}
+.title-text{
+  font: bold 4rem courier !important;
+  color: #BF360C
+}
+.contact-text {
+	font: Bold 3rem courier !important;
+	color: #BF360C;
+  margin-top:20px;
+  text-align: center;
+}
+.lable-contact{
+	font: normal 2rem courier !important;
+	color: #000;
+}
+.send-text {
+  font: Bold 2rem courier !important;
+  color: #BF360C;
+
+}
+.about-text {
+  margin-top: 50px;
+  font: Bold 3rem courier !important;
+  color: #BF360C;
+}
+
+.button {
+    align-self: center;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+	   padding-top: 5px;
+    padding-right:10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  	width: 120px;
+  	height: 50px;
+  	border-radius: 8px;
+  	float:right;
+}
+.about{
+  margin-left: 10%;
+  display:flex;
+  flex-direction:row;
+}
+.address,.phone,.email,.social{
+  position:relative;
+  background: #663333;
+  padding:25px;
+  width:30%;
+  height:280px;
+  margin-top:50px;
+  margin-bottom:50px;
+  float:center;
+  margin-left: 5%
+  border-radius: 8px;
+
+}
+.icon {
+    position: absolute;
+    top: -24px;
+    left: 42%;
+    padding: 14px;
+   background: #c71d1d;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.icon .glyphicon{
+  color:#eee;
+  font-size:20px;
+}
+.address h3,.phone h3,.email h3{
+  font-size: 2rem;
+  color:#fff;
+  margin-bottom:15px;
+}
+.address h4,.phone h4,.email h4{
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;=
+}
+
+.email a{
+  color: #fff;
+  text-decoration: none;
+}

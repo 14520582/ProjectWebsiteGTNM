@@ -16,10 +16,11 @@ $(document).ready(function(){
   $('.film-item > p').css('width', $('.film-item')[0].offsetWidth);
 
   // auto scroll film-items
-  var maxScrollLeft = $('.film-items').get(0).scrollWidth - $('.film-items').get(0).clientWidth;
 
   $('.film-list > div > .back').click(function(e){
     var obj = $(this).parent().find('.film-items');
+    var index = $(this).parent().index();
+    var maxScrollLeft = $('.film-items').get(index).scrollWidth - $('.film-items').get(0).clientWidth;
 
     if(obj.scrollLeft() > 0){
       obj.animate({scrollLeft: obj.scrollLeft() - autoscrollSize}, 1000);
@@ -31,6 +32,8 @@ $(document).ready(function(){
 
   $('.film-list > div > .next').click(function(e){
     var obj = $(this).parent().find('.film-items');
+    var index = $(this).parent().index();
+    var maxScrollLeft = $('.film-items').get(index).scrollWidth - $('.film-items').get(0).clientWidth;
 
     if(obj.scrollLeft() < maxScrollLeft){
       obj.animate({scrollLeft: obj.scrollLeft() + autoscrollSize}, 1000);

@@ -1,18 +1,10 @@
-@font-face {
-  font-family:  "toms handwritten new";
-  src:  url("../fonts/toms handwritten new.eot?") format("eot"),
-        url("../fonts/toms handwritten new.woff2") format("woff2"),
-        url("../fonts/toms handwritten new.woff") format("woff"),
-        url("../fonts/toms handwritten new.ttf") format("truetype");
-}
-
 .logo{
   text-align: center;
   margin-bottom: 15px;
 }
 
 .logo img{
-  width: 150px;
+  width: 125px;
   height: auto;
 }
 
@@ -33,12 +25,14 @@
 }
 
 header .navbar ul > li > a{
-  font-family: "toms handwritten new";
-  font-weight: bold;
-  font-size: 3rem;
-  font-variant: small-caps;
-  letter-spacing: 2px;
+  font-family: courier, serif;
   color: #663333;
+}
+
+header .menu > li > a{
+  font-weight: bold;
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
 header .menu > li > a:focus{

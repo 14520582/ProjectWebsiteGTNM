@@ -3,7 +3,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Classic Cinema Online</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/header.css">
@@ -124,8 +124,8 @@
   </header>
 
   <div class="video-container col-xs-10 col-xs-offset-1">
-    <video controls poster="images/c6.jpg" class="col-xs-12" onclick="this.paused ? this.play() : this.pause()">
-      <source src="videos/IceAge2016.mp4" type="video/mp4">
+    <video autoplay controls poster="images/c2.jpg" class="col-xs-12" onclick="this.paused ? this.play() : this.pause()">
+      <source src="videos/titanic.mp4" type="video/mp4">
       <p>Film video</p>
     </video>
   </div>
@@ -136,30 +136,38 @@
         <img src="images/info.png" alt="Info about film">
       </button>
       <div class="content">
-        <p class="title">The song of Songs</p>
-        <p class="time">94 mins</p>
+        <p class="title">Titanic</p>
+        <p class="time">120 mins</p>
         <div class="clear"></div>
-        <table class="col-xs-12">
+        <table class="col-xs-12 col-sm-8 col-sm-offset-2">
           <tbody>
             <tr>
-              <td class="col-xs-3">Actor</td>
-              <td class="col-xs-9">Martin, Joe, Stephen</td>
+              <td class="col-xs-3 col-sm-2">Actor</td>
+              <td class="col-xs-9 col-sm-10">
+                <a href="#">Martin</a>,
+                <a href="#">Joe</a>,
+                <a href="#">Stephen</a>,
+                <a href="#">Carly Anbe</a>,
+                <a href="#">John Doe</a>
+              </td>
             </tr>
             <tr>
-              <td class="col-xs-3">Award</td>
-              <td class="col-xs-9">Oscar</td>
+              <td class="col-xs-3 col-sm-2">Award</td>
+              <td class="col-xs-9 col-sm-10">
+                Best Motion Picture – Drama, Best Original Song,  ASC Award
+              </td>
             </tr>
             <tr>
-              <td class="col-xs-3">Country</td>
-              <td class="col-xs-9">US</td>
+              <td class="col-xs-3 col-sm-2">Country</td>
+              <td class="col-xs-9 col-sm-10">US</td>
             </tr>
             <tr>
-              <td class="col-xs-3">Genre</td>
-              <td class="col-xs-9">Adventure, Cartoon, Comedy, Fantasy</td>
+              <td class="col-xs-3 col-sm-2">Genre</td>
+              <td class="col-xs-9 col-sm-10">Adventure, Cartoon, Comedy, Fantasy</td>
             </tr>
             <tr>
-              <td class="col-xs-3">Release</td>
-              <td class="col-xs-9">2006</td>
+              <td class="col-xs-3 col-sm-2">Release</td>
+              <td class="col-xs-9 col-sm-10">1997</td>
             </tr>
           </tbody>
         </table>
@@ -321,7 +329,6 @@
               <ul class="pages">
                   <li><a href="genres.html">Genre</a></li>
                   <li><a href="genres.html">Country</a></li>
-                  <li><a href="genres.html">Movies</a></li>
                   <li><a href="genres.html">TV-Series</a></li>
                   <li><a href="genres.html">Release</a></li>
               </ul>
