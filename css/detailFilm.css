@@ -1,0 +1,144 @@
+.container {
+  width: 100%;
+  padding: 0px 160px 40px 160px;
+  clear: right;
+  overflow: hidden;
+  float: right;
+  font-size: 13px;
+}
+
+.IntroduceArea {
+  width: 100%;
+  padding: 0px 160px 0px 160px;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+.HotMovie {
+  width: 25%;
+  float: right;
+  padding-left: 50px;
+  padding-bottom: 40px;
+}
+
+.Content {
+  clear: none;
+  overflow: hidden;
+  float: left;
+
+  width: 100%;
+}
+
+
+div.MinorDetailsDiv {
+  padding-bottom: 10px;
+  border-top: 1px solid #8f8e8b;
+  border-bottom: 5px solid #050708;
+}
+
+.imageMovie {
+  width: 30px;
+  height: 20px;
+}
+
+.imageMovie img {
+  width: 160px;
+  height: 170px;
+}
+
+.IntroduceArea h1 {
+  clear: both;
+  color: #121211;
+  font-family: "Futura", Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  width: 635px;
+}
+
+h1 {
+  display: block;
+  -webkit-margin-before: 0.67em;
+  -webkit-margin-after: 0.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.movieDetailPageDiv h2 {
+  padding-top: 15px;
+  font-size: 18px;
+}
+
+.IntroduceArea h2 {
+  clear: both;
+  color: #121211;
+  font-family: "Futura", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.HotMovie h2 {
+  clear: both;
+  color: #121211;
+  font-family: "Futura", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+h2 {
+  display: block;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.IntroduceArea p {
+  clear: both;
+  margin-bottom: 20px;
+  color: #050708;
+  line-height: 18px;
+  padding-left: 190px;
+}
+
+.Content p {
+  clear: both;
+  margin-bottom: 20px;
+  color: #050708;
+  line-height: 18px;
+}
+
+p {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.AlternateGallery2 {
+  height: auto;
+  padding-bottom: 40px;
+}
+
+.AlternateGallery2 img {
+  height: auto;
+  width: 100%;
+  padding-top: 30px;
+}
