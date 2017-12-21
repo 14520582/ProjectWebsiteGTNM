@@ -13,14 +13,13 @@ $(document).ready(function(){
 
   $('.navbar .menu > li').on({
     mouseleave: function(e){
-      console.log('blur');
       selectedMenu.next().hide();
       selectedMenu = null;
     }
   });
 
   $('.menu .submenu > li > a').focus(function(e){
-    console.log('click');
+
   });
 
 });
