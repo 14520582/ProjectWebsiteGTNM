@@ -1,9 +1,4 @@
-/*--A Design by W3layouts 
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 body a {
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -12,12 +7,10 @@ body a {
   -ms-transition: 0.5s all;
 }
 html, body{
-    font-size: 100%;
-    font-family: 'Roboto Condensed', sans-serif;
-    background: #FFF;
+    background-image: url("../images/background.jpg");
 }
 h2.latest-text {
-    border-left: 5px solid #ff8d1b;
+    border-left: 5px solid #b36154;
     font-size: 2em;
     color: #212121;
     text-transform: uppercase;
@@ -58,8 +51,8 @@ td.w3-list-info a {
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     color: #ffffff;
     cursor: default;
-    background: #ff8d1b;
-    border: 1px solid #ff8d1b;
+    background: #b36154;
+    border: 1px solid #b36154;
 }
 .nav-tabs > li > a {
     margin-right: 3px;
@@ -83,7 +76,7 @@ td.w3-list-info a {
 }
 .nav-tabs > li > a:hover {
     color:#FFFFFF !important;
-    background: #ff8d1b;
+    background: #b36154;
 }
 /*-- responsive --*/
 @media(max-width:1080px){

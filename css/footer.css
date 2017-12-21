@@ -1,10 +1,13 @@
 .footer-bs {
-  border-top: 3px solid #000;
+  border-top: 3px solid #663333;
   overflow: auto;
 	padding: 40px 40px;
 	color: #000;
   clear: both;
 }
+
+.footer-bs .row .footer-brand > img { margin-bottom: 20px;}
+
 .footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
 .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
 .footer-bs .footer-brand h2 { margin:0px 0px 10px; }
@@ -12,8 +15,8 @@
 
 .footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
 .footer-bs .footer-nav ul.pages li { padding:5px 0px;}
-.footer-bs .footer-nav ul.pages a { ccolor: #000; font-weight:bold; text-transform:uppercase; }
-.footer-bs .footer-nav ul.pages a:hover { color: #000; text-decoration:none; }
+.footer-bs .footer-nav ul.pages a { color: #663333; }
+.footer-bs .footer-nav ul.pages a:hover { font-weight: bold; text-decoration:none; }
 .footer-bs .footer-nav h4 {
 	font-size: 11px;
 	text-transform: uppercase;
@@ -23,8 +26,8 @@
 
 .footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
 .footer-bs .footer-nav ul.list li { padding:5px 0px;}
-.footer-bs .footer-nav ul.list a { color: #000; }
-.footer-bs .footer-nav ul.list a:hover { color: #000; text-decoration:none; }
+.footer-bs .footer-nav ul.list a { color: #663333; }
+.footer-bs .footer-nav ul.list a:hover { font-weight: bold; text-decoration:none; }
 
 .footer-bs .footer-social ul { list-style:none; padding:0px; }
 .footer-bs .footer-social h4 {
@@ -33,8 +36,8 @@
 	letter-spacing: 3px;
 }
 .footer-bs .footer-social li { padding:5px 4px;}
-.footer-bs .footer-social a { ccolor: #000;}
-.footer-bs .footer-social a:hover { color: #000; text-decoration:none; }
+.footer-bs .footer-social a { color: #663333;}
+.footer-bs .footer-social a:hover { font-weight: bold; text-decoration:none; }
 
 .footer-bs .footer-ns h4 {
 	font-size: 11px;
@@ -50,5 +53,5 @@
 }
 
 @media (min-width: 768px) {
-	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px #000; }
+	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px #663333; }
 }

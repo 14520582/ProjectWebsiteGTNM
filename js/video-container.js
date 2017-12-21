@@ -2,9 +2,9 @@ var contentWidth = 400;
 
 $(document).ready(function(){
 
-  $('.menu .content').css('top', getContentBottom());
+  $('.video-menu .content').css('top', getContentBottom());
 
-  $('.menu #info, #suggestion').on({
+  $('.video-menu #info, #suggestion').on({
     mouseenter: function(e){
       $(this).find('.content').animate({top: getContentTop(), opacity: 1}, 600);
     },
@@ -19,5 +19,5 @@ function getContentTop(){
 }
 
 function getContentBottom(){
-  return window.innerHeight - parseInt($('.menu .content').css('bottom'), 10);
+  return window.innerHeight - parseInt($('.video-menu .content').css('bottom'), 10);
 }

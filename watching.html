@@ -11,12 +11,13 @@
   <link rel="stylesheet" href="css/search.css">
   <link rel="stylesheet" href="css/film-list.css">
   <link rel="stylesheet" href="css/video-container.css">
+  <link rel="stylesheet" href="css/color-palette.css">
 </head>
 <body>
 
   <header>
     <div class="logo">
-      <a href="#"><img src="images/logo.jpg" alt="Logo"></a>
+      <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
     </div>
 
     <nav class="navbar">
@@ -31,11 +32,91 @@
         </div>
 
         <div class="collapse navbar-collapse" id="mynav">
-          <ul class="nav navbar-nav">
-            <li><a href="#">Actor</a></li>
-            <li><a href="#">Category</a></li>
-            <li><a href="#">Award</a></li>
-            <li><a href="#">Country</a></li>
+          <ul class="nav navbar-nav menu">
+            <li>
+              <a href="#">Genre</a>
+              <ul class="submenu">
+                <li><a href="genres.html">Action</a></li>
+                <li><a href="genres.html">Adventure</a></li>
+                <li><a href="genres.html">Animation</a></li>
+                <li><a href="genres.html">Biography</a></li>
+                <li><a href="genres.html">Costume</a></li>
+                <li><a href="genres.html">Comedy</a></li>
+                <li><a href="genres.html">Crime</a></li>
+                <li><a href="genres.html">Documentary</a></li>
+                <li><a href="genres.html">Drama</a></li>
+                <li><a href="genres.html">Family</a></li>
+                <li><a href="genres.html">Fantasy</a></li>
+                <li><a href="genres.html">Gameshow</a></li>
+                <li><a href="genres.html">History</a></li>
+                <li><a href="genres.html">Horror</a></li>
+                <li><a href="genres.html">Kungfu</a></li>
+                <li><a href="genres.html">Music</a></li>
+                <li><a href="genres.html">Mystery</a></li>
+                <li><a href="genres.html">Romance</a></li>
+                <li><a href="genres.html">Sci-Fi</a></li>
+                <li><a href="genres.html">Sport</a></li>
+                <li><a href="genres.html">Thriller</a></li>
+                <li><a href="genres.html">War</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Country</a>
+              <ul class="submenu">
+                <li><a href="genres.html">Argentina</a></li>
+                <li><a href="genres.html">Australia</a></li>
+                <li><a href="genres.html">Belgium</a></li>
+                <li><a href="genres.html">Brazil</a></li>
+                <li><a href="genres.html">Canada</a></li>
+                <li><a href="genres.html">China</a></li>
+                <li><a href="genres.html">Denmark</a></li>
+                <li><a href="genres.html">France</a></li>
+                <li><a href="genres.html">Hong Kong</a></li>
+                <li><a href="genres.html">Hungary</a></li>
+                <li><a href="genres.html">India</a></li>
+                <li><a href="genres.html">Italy</a></li>
+                <li><a href="genres.html">Japan</a></li>
+                <li><a href="genres.html">Korea</a></li>
+                <li><a href="genres.html">Mexico</a></li>
+                <li><a href="genres.html">Netherlands</a></li>
+                <li><a href="genres.html">Poland</a></li>
+                <li><a href="genres.html">Russia</a></li>
+                <li><a href="genres.html">South Africa</a></li>
+                <li><a href="genres.html">Spain</a></li>
+                <li><a href="genres.html">Taiwan</a></li>
+                <li><a href="genres.html">Thailand</a></li>
+                <li><a href="genres.html">Unnited Kingdom</a></li>
+                <li><a href="genres.html">United States</a></li>
+              </ul>
+            </li>
+            <li><a href="genres.html">TV Series</a></li>
+            <li>
+              <a href="#">Release</a>
+              <ul class="submenu">
+                <li><a href="genres.html">2017</a></li>
+                <li><a href="genres.html">2016</a></li>
+                <li><a href="genres.html">2015</a></li>
+                <li><a href="genres.html">2014</a></li>
+                <li><a href="genres.html">2013</a></li>
+                <li><a href="genres.html">2012</a></li>
+                <li><a href="genres.html">2011</a></li>
+                <li><a href="genres.html">2010</a></li>
+                <li><a href="genres.html">2009</a></li>
+                <li><a href="genres.html">2008</a></li>
+                <li><a href="genres.html">2017</a></li>
+                <li><a href="genres.html">2006</a></li>
+                <li><a href="genres.html">2005</a></li>
+                <li><a href="genres.html">2004</a></li>
+                <li><a href="genres.html">2003</a></li>
+                <li><a href="genres.html">2002</a></li>
+                <li><a href="genres.html">2001</a></li>
+                <li><a href="genres.html">2000</a></li>
+                <li><a href="genres.html">1999</a></li>
+                <li><a href="genres.html">1998</a></li>
+                <li><a href="genres.html">1997</a></li>
+                <li><a href="genres.html">1996</a></li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
@@ -43,42 +124,42 @@
   </header>
 
   <div class="video-container col-xs-10 col-xs-offset-1">
-    <video controls poster="images/c6.jpg" class="col-xs-12">
+    <video controls poster="images/c6.jpg" class="col-xs-12" onclick="this.paused ? this.play() : this.pause()">
       <source src="videos/IceAge2016.mp4" type="video/mp4">
       <p>Film video</p>
     </video>
   </div>
 
-  <div class="menu">
+  <div class="video-menu">
     <div id="info">
       <button type="button">
         <img src="images/info.png" alt="Info about film">
       </button>
       <div class="content">
-        <p class="title">Ice Age: Collision Course</p>
+        <p class="title">The song of Songs</p>
         <p class="time">94 mins</p>
         <div class="clear"></div>
         <table class="col-xs-12">
           <tbody>
             <tr>
-              <td class="col-xs-3">Year</td>
-              <td class="col-xs-9">2016</td>
-            </tr>
-            <tr>
               <td class="col-xs-3">Actor</td>
-              <td class="col-xs-9">abc, dex</td>
+              <td class="col-xs-9">Martin, Joe, Stephen</td>
             </tr>
             <tr>
               <td class="col-xs-3">Award</td>
-              <td class="col-xs-9">dfdf</td>
-            </tr>
-            <tr>
-              <td class="col-xs-3">Category</td>
-              <td class="col-xs-9">Adventure, Cartoon, Comedy, Fantasy</td>
+              <td class="col-xs-9">Oscar</td>
             </tr>
             <tr>
               <td class="col-xs-3">Country</td>
               <td class="col-xs-9">US</td>
+            </tr>
+            <tr>
+              <td class="col-xs-3">Genre</td>
+              <td class="col-xs-9">Adventure, Cartoon, Comedy, Fantasy</td>
+            </tr>
+            <tr>
+              <td class="col-xs-3">Release</td>
+              <td class="col-xs-9">2006</td>
             </tr>
           </tbody>
         </table>
@@ -94,126 +175,124 @@
             <p>Suggested Films</p>
             <div class="film-items">
               <div class="film-item">
-                <a href="#">
-                  <img src="images/c1.jpg" alt="Film is catergoried to actor">
-                </a>
+                <a href="#"><img src="images/c4.jpg" alt="Film is catergoried to actor"></a>
                 <div class="film-description">
-                  <p class="title">Titanic (1997)</p>
+                  <p class="title">Romance in Manhaita</p>
                   <p class="time">120 min</p>
                   <p class="content">An American epic romance-disaster film directed, written, co-produced and co-edited by James Cameron. A fictionalized account of the sinking of the RMS Titanic, it stars Leonardo DiCaprio and Kate Winslet as members of different social classes who fall in love aboard the ship during its ill-fated maiden voyage.</p>
-                  <a href="watchingfilm.html" class="watch">
-                    <img src="../../public/images/watch.png" alt="Watch film">
+                  <a href="watching.html" class="watch">
+                    <img src="images/play-button-small.png" alt="Watch film">
                   </a>
                 </div>
-                <p>Madonna</p>
+                <p>Romance in Manhaita</p>
               </div>
               <div class="film-item">
                 <a href="#"><img src="images/c1.jpg" alt="Film is catergoried to actor"></a>
                 <div class="film-description">
-                  <p class="title">Titanic (1997)</p>
+                  <p class="title">Little Caesar</p>
                   <p class="time">120 min</p>
                   <p class="content">An American epic romance-disaster film directed, written, co-produced and co-edited by James Cameron. A fictionalized account of the sinking of the RMS Titanic, it stars Leonardo DiCaprio and Kate Winslet as members of different social classes who fall in love aboard the ship during its ill-fated maiden voyage.</p>
-                  <a href="watchingfilm.html" class="watch">
-                    <img src="../../public/images/watch.png" alt="Watch film">
+                  <a href="watching.html" class="watch">
+                    <img src="images/play-button-small.png" alt="Watch film">
                   </a>
                 </div>
-                <p>Madonna</p>
+                <p>Little Caesar</p>
+              </div>
+              <div class="film-item">
+                <a href="#"><img src="images/c2.jpg" alt="Film is catergoried to actor"></a>
+                <div class="film-description">
+                  <p class="title">I dream too much</p>
+                  <p class="time">120 min</p>
+                  <p class="content">An American epic romance-disaster film directed, written, co-produced and co-edited by James Cameron. A fictionalized account of the sinking of the RMS Titanic, it stars Leonardo DiCaprio and Kate Winslet as members of different social classes who fall in love aboard the ship during its ill-fated maiden voyage.</p>
+                  <a href="watching.html" class="watch">
+                    <img src="images/play-button-small.png" alt="Watch film">
+                  </a>
+                </div>
+                <p>I dream too much</p>
+              </div>
+              <div class="film-item">
+                <a href="#"><img src="images/c3.jpg" alt="Film is catergoried to actor"></a>
+                <div class="film-description">
+                  <p class="title">Men in White</p>
+                  <p class="time">120 min</p>
+                  <p class="content">An American epic romance-disaster film directed, written, co-produced and co-edited by James Cameron. A fictionalized account of the sinking of the RMS Titanic, it stars Leonardo DiCaprio and Kate Winslet as members of different social classes who fall in love aboard the ship during its ill-fated maiden voyage.</p>
+                  <a href="watching.html" class="watch">
+                    <img src="images/play-button-small.png" alt="Watch film">
+                  </a>
+                </div>
+                <p>Men in White</p>
+              </div>
+              <div class="film-item">
+                <a href="#"><img src="images/c5.jpg" alt="Film is catergoried to actor"></a>
+                <div class="film-description">
+                  <p class="title">Meet John Doe</p>
+                  <p class="time">120 min</p>
+                  <p class="content">An American epic romance-disaster film directed, written, co-produced and co-edited by James Cameron. A fictionalized account of the sinking of the RMS Titanic, it stars Leonardo DiCaprio and Kate Winslet as members of different social classes who fall in love aboard the ship during its ill-fated maiden voyage.</p>
+                  <a href="watching.html" class="watch">
+                    <img src="images/play-button-small.png" alt="Watch film">
+                  </a>
+                </div>
+                <p>Meet John Doe</p>
+              </div>
+              <div class="film-item">
+                <a href="#"><img src="images/c6.jpg" alt="Film is catergoried to actor"></a>
+                <div class="film-description">
+                  <p class="title">The song of Songs</p>
+                  <p class="time">120 min</p>
+                  <p class="content">An American epic romance-disaster film directed, written, co-produced and co-edited by James Cameron. A fictionalized account of the sinking of the RMS Titanic, it stars Leonardo DiCaprio and Kate Winslet as members of different social classes who fall in love aboard the ship during its ill-fated maiden voyage.</p>
+                  <a href="watching.html" class="watch">
+                    <img src="images/play-button-small.png" alt="Watch film">
+                  </a>
+                </div>
+                <p>The song of Songs</p>
+              </div>
+              <div class="film-item">
+                <a href="#"><img src="images/c7.jpg" alt="Film is catergoried to actor"></a>
+                <div class="film-description">
+                  <p class="title">Adam's Rib</p>
+                  <p class="time">120 min</p>
+                  <p class="content">An American epic romance-disaster film directed, written, co-produced and co-edited by James Cameron. A fictionalized account of the sinking of the RMS Titanic, it stars Leonardo DiCaprio and Kate Winslet as members of different social classes who fall in love aboard the ship during its ill-fated maiden voyage.</p>
+                  <a href="watching.html" class="watch">
+                    <img src="images/play-button-small.png" alt="Watch film">
+                  </a>
+                </div>
+                <p>Adam's Rib</p>
+              </div>
+              <div class="film-item">
+                <a href="#"><img src="images/c8.jpg" alt="Film is catergoried to actor"></a>
+                <div class="film-description">
+                  <p class="title">San Francisco</p>
+                  <p class="time">120 min</p>
+                  <p class="content">An American epic romance-disaster film directed, written, co-produced and co-edited by James Cameron. A fictionalized account of the sinking of the RMS Titanic, it stars Leonardo DiCaprio and Kate Winslet as members of different social classes who fall in love aboard the ship during its ill-fated maiden voyage.</p>
+                  <a href="watching.html" class="watch">
+                    <img src="images/play-button-small.png" alt="Watch film">
+                  </a>
+                </div>
+                <p>San Francisco</p>
               </div>
               <div class="film-item">
                 <a href="#"><img src="images/c1.jpg" alt="Film is catergoried to actor"></a>
                 <div class="film-description">
-                  <p class="title">Titanic (1997)</p>
+                  <p class="title">Little Ceasar</p>
                   <p class="time">120 min</p>
                   <p class="content">An American epic romance-disaster film directed, written, co-produced and co-edited by James Cameron. A fictionalized account of the sinking of the RMS Titanic, it stars Leonardo DiCaprio and Kate Winslet as members of different social classes who fall in love aboard the ship during its ill-fated maiden voyage.</p>
-                  <a href="watchingfilm.html" class="watch">
-                    <img src="../../public/images/watch.png" alt="Watch film">
+                  <a href="watching.html" class="watch">
+                    <img src="images/play-button-small.png" alt="Watch film">
                   </a>
                 </div>
-                <p>Madonna</p>
+                <p>Little Ceasar</p>
               </div>
               <div class="film-item">
-                <a href="#"><img src="images/c1.jpg" alt="Film is catergoried to actor"></a>
+                <a href="#"><img src="images/c4.jpg" alt="Film is catergoried to actor"></a>
                 <div class="film-description">
-                  <p class="title">Titanic (1997)</p>
+                  <p class="title">Mahantina</p>
                   <p class="time">120 min</p>
                   <p class="content">An American epic romance-disaster film directed, written, co-produced and co-edited by James Cameron. A fictionalized account of the sinking of the RMS Titanic, it stars Leonardo DiCaprio and Kate Winslet as members of different social classes who fall in love aboard the ship during its ill-fated maiden voyage.</p>
-                  <a href="watchingfilm.html" class="watch">
-                    <img src="../../public/images/watch.png" alt="Watch film">
+                  <a href="watching.html" class="watch">
+                    <img src="images/play-button-small.png" alt="Watch film">
                   </a>
                 </div>
-                <p>Madonna</p>
-              </div>
-              <div class="film-item">
-                <a href="#"><img src="images/c1.jpg" alt="Film is catergoried to actor"></a>
-                <div class="film-description">
-                  <p class="title">Titanic (1997)</p>
-                  <p class="time">120 min</p>
-                  <p class="content">An American epic romance-disaster film directed, written, co-produced and co-edited by James Cameron. A fictionalized account of the sinking of the RMS Titanic, it stars Leonardo DiCaprio and Kate Winslet as members of different social classes who fall in love aboard the ship during its ill-fated maiden voyage.</p>
-                  <a href="watchingfilm.html" class="watch">
-                    <img src="../../public/images/watch.png" alt="Watch film">
-                  </a>
-                </div>
-                <p>Madonna</p>
-              </div>
-              <div class="film-item">
-                <a href="#"><img src="images/c1.jpg" alt="Film is catergoried to actor"></a>
-                <div class="film-description">
-                  <p class="title">Titanic (1997)</p>
-                  <p class="time">120 min</p>
-                  <p class="content">An American epic romance-disaster film directed, written, co-produced and co-edited by James Cameron. A fictionalized account of the sinking of the RMS Titanic, it stars Leonardo DiCaprio and Kate Winslet as members of different social classes who fall in love aboard the ship during its ill-fated maiden voyage.</p>
-                  <a href="watchingfilm.html" class="watch">
-                    <img src="../../public/images/watch.png" alt="Watch film">
-                  </a>
-                </div>
-                <p>Madonna</p>
-              </div>
-              <div class="film-item">
-                <a href="#"><img src="images/c1.jpg" alt="Film is catergoried to actor"></a>
-                <div class="film-description">
-                  <p class="title">Titanic (1997)</p>
-                  <p class="time">120 min</p>
-                  <p class="content">An American epic romance-disaster film directed, written, co-produced and co-edited by James Cameron. A fictionalized account of the sinking of the RMS Titanic, it stars Leonardo DiCaprio and Kate Winslet as members of different social classes who fall in love aboard the ship during its ill-fated maiden voyage.</p>
-                  <a href="watchingfilm.html" class="watch">
-                    <img src="../../public/images/watch.png" alt="Watch film">
-                  </a>
-                </div>
-                <p>Madonna</p>
-              </div>
-              <div class="film-item">
-                <a href="#"><img src="images/c1.jpg" alt="Film is catergoried to actor"></a>
-                <div class="film-description">
-                  <p class="title">Titanic (1997)</p>
-                  <p class="time">120 min</p>
-                  <p class="content">An American epic romance-disaster film directed, written, co-produced and co-edited by James Cameron. A fictionalized account of the sinking of the RMS Titanic, it stars Leonardo DiCaprio and Kate Winslet as members of different social classes who fall in love aboard the ship during its ill-fated maiden voyage.</p>
-                  <a href="watchingfilm.html" class="watch">
-                    <img src="../../public/images/watch.png" alt="Watch film">
-                  </a>
-                </div>
-                <p>Madonna</p>
-              </div>
-              <div class="film-item">
-                <a href="#"><img src="images/c1.jpg" alt="Film is catergoried to actor"></a>
-                <div class="film-description">
-                  <p class="title">Titanic (1997)</p>
-                  <p class="time">120 min</p>
-                  <p class="content">An American epic romance-disaster film directed, written, co-produced and co-edited by James Cameron. A fictionalized account of the sinking of the RMS Titanic, it stars Leonardo DiCaprio and Kate Winslet as members of different social classes who fall in love aboard the ship during its ill-fated maiden voyage.</p>
-                  <a href="watchingfilm.html" class="watch">
-                    <img src="../../public/images/watch.png" alt="Watch film">
-                  </a>
-                </div>
-                <p>Madonna</p>
-              </div>
-              <div class="film-item">
-                <a href="#"><img src="images/c1.jpg" alt="Film is catergoried to actor"></a>
-                <div class="film-description">
-                  <p class="title">Titanic (1997)</p>
-                  <p class="time">120 min</p>
-                  <p class="content">An American epic romance-disaster film directed, written, co-produced and co-edited by James Cameron. A fictionalized account of the sinking of the RMS Titanic, it stars Leonardo DiCaprio and Kate Winslet as members of different social classes who fall in love aboard the ship during its ill-fated maiden voyage.</p>
-                  <a href="watchingfilm.html" class="watch">
-                    <img src="../../public/images/watch.png" alt="Watch film">
-                  </a>
-                </div>
-                <p>Madonna</p>
+                <p>Mahantina</p>
               </div>
             </div>
             <img src="images/back.png" alt="Button scroll to left" class="back">
@@ -224,7 +303,7 @@
     </div>
   </div>
 
-  <form class="search-form">
+  <form class="search-form col-xs-12" action="genres.html">
     <input type="text" placeholder="Search" class="col-xs-11" id="search-content">
     <input type="button" value="" id="search-submit">
   </form>
@@ -232,7 +311,7 @@
   <footer class="footer-bs">
     <div class="row">
       <div class="col-md-3 footer-brand animated fadeInLeft">
-        <img class="logo" src="images/logo.jpg">
+        <img class="logo" src="images/logo.png">
           <p>Ads help support the MovieWeb team and servers and allow us to keep this content free for you. We strive to not interrupt your visit with intrusive ads. Please support us by enabling ads on the site. We really appreciate it!</p>
           <p>Copyright 2017 Company name, Designed by UIT. All rights reserved</p>
       </div>
@@ -240,16 +319,16 @@
         <h4>Menu —</h4>
         <div class="col-md-6">
               <ul class="pages">
-                  <li><a href="#">Actor</a></li>
-                  <li><a href="#">Category</a></li>
-                  <li><a href="#">Award</a></li>
-                  <li><a href="#">Country</a></li>
+                  <li><a href="genres.html">Genre</a></li>
+                  <li><a href="genres.html">Country</a></li>
+                  <li><a href="genres.html">Movies</a></li>
+                  <li><a href="genres.html">TV-Series</a></li>
+                  <li><a href="genres.html">Release</a></li>
               </ul>
           </div>
         <div class="col-md-6">
               <ul class="list">
                   <li><a href="#">About Us</a></li>
-                  <li><a href="#">Contacts</a></li>
               </ul>
           </div>
       </div>
@@ -279,6 +358,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/header.js"></script>
   <script src="js/search.js"></script>
   <script src="js/film-list.js"></script>
   <script src="js/video-container.js"></script>
