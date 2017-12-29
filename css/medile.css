@@ -425,7 +425,7 @@ ol.breadcrumb li a {
 .tool-tip{
   display: none;
   position: absolute;
-  width: 400px;
+  width: 450px;
   max-height: 340px;
   background-color: #FCFCFB;
   color: black;
