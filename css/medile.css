@@ -7,6 +7,10 @@ body a:hover{
     padding: 2em 1em;
     box-shadow: 0px 0px 1px #999;
 } */
+p{
+	margin:0;
+	/* font-size:0.9em; */
+}
 .browse-agile-w3ls {
     padding: 2em 0;
 }
@@ -425,7 +429,7 @@ ol.breadcrumb li a {
 .tool-tip{
   display: none;
   position: absolute;
-  width: 450px;
+	width: 400px;
   max-height: 340px;
   background-color: #FCFCFB;
   color: black;
@@ -440,11 +444,10 @@ ol.breadcrumb li a {
   color: #841000;
 }
 #title{
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 .description {
-  font-size: 0.8em;
-  margin-top: 5px;
+  font-size: 1.0em;
   margin-bottom: 5px
 }
 .quality {
@@ -459,7 +462,7 @@ ol.breadcrumb li a {
   background: #D66A16;
   color: #222;
   font-weight: bold;
-  font-size: .8rem;
+  font-size: 1.2rem;
   -webkit-border-radius: 2px;
   -khtml-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -476,7 +479,7 @@ ol.breadcrumb li a {
   font-weight: bold;
 }
 .rate {
-  font-size: 0.8em;
+  font-size: 0.9em;
   font-weight: bold;
 }
 .field {
@@ -490,4 +493,10 @@ ol.breadcrumb li a {
   margin: 0 5px;
 }
 .filter {
+}
+.col-sm-6 {
+    width: 52.5%;
+}
+.col-sm-3 {
+    width: 23.5%;
 }
