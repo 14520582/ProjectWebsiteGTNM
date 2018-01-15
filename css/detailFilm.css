@@ -160,3 +160,16 @@ p {
   width: 100%;
   padding-top: 40px;
 }
+
+.Content > .AlternateGallery2 > .video-container {
+  padding: 0;
+}
+
+.Content > .AlternateGallery2 > .video-container > video{
+  padding: 0;
+  object-fit: cover;
+}
+
+.Content > .film-list{
+  padding: 0;
+}
