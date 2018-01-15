@@ -1,6 +1,7 @@
 .video-container{
   margin-top: 50px;
   margin-bottom: 50px;
+  padding: 0;
 }
 
 .video-container > video{
@@ -40,16 +41,20 @@
   height: auto;
 }
 
+.video-menu > div {
+  overflow: hidden;
+}
+
 .video-menu > div > .content{
   position: fixed;
   left: 50px;
-  right: 0;
+  /*right: 0px;*/
   bottom: 0;
+  /*width: 370px;*/
   opacity: 0;
   padding: 10px 20px;
   background-color: #cc9966;
   color: #663333;
-  overflow:auto;
   text-align: center;
 }
 
@@ -57,7 +62,7 @@
   font-size: 1.5em;
   font-weight: bold;
   font-variant: normal;
-  margin: 20px 0 10px 0;
+  margin: 10px 0 10px 0;
 }
 
 .video-menu .content > .time{
@@ -94,7 +99,7 @@
 }
 
 .video-menu .content > table td:last-child{
-  text-align: right;
+  /*text-align: right;*/
 }
 
 .video-menu .content > table tr > td a{
@@ -106,6 +111,10 @@
   font-weight: bold;
   text-decoration: none;
   font-size: 1.5rem;
+}
+
+.video-menu .content .film-list{
+  padding: 0;
 }
 
 .video-menu .content .film-list > div{
@@ -122,4 +131,16 @@
 
 .video-menu .content .film-list .film-item > p{
   color: #000;
+}
+
+@media (min-width: 420px) {
+  .video-menu > div > .content{
+    width: 370px;
+  }
+}
+
+@media (min-width: 0) {
+  .video-menu > div > .content{
+    right: 0;
+  }
 }

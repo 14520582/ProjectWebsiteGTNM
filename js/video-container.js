@@ -1,6 +1,9 @@
 var contentWidth = 400;
 
 $(document).ready(function(){
+  $('body').animate({
+    scrollTop: $('.navbar').offset().top
+  }, 2000);
 
   $('.video-menu .content').css('top', getContentBottom());
 
