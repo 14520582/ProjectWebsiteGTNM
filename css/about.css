@@ -28,9 +28,10 @@
     padding: 10px 20px;
     margin: 5px 0;
     box-sizing: border-box;
-    border: 2px solid red;
+    border: 2px solid #663333;
     border-radius: 4px;
 	font: normal 20px courier !important;
+	background-color : #FFF8C6;
 
 }
 
@@ -39,11 +40,12 @@
     padding: 10px 20px;
     margin: 5px 0;
     box-sizing: border-box;
-    border: 2px solid red;
+    border: 2px solid #663333;
     border-radius: 4px;
 	font: normal 20px courier !important;
     resize: none;
-	height:100px
+	height:100px;
+	background-color : #FFF8C6;
 }
 .title-text{
   font: bold 4rem courier !important;
@@ -57,7 +59,7 @@
 }
 .lable-contact{
 	font: normal 2rem courier !important;
-	color: #000;
+	color: #BF360C;
 }
 .send-text {
   font: Bold 2rem courier !important;
