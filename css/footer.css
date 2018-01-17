@@ -46,6 +46,7 @@
 	margin-bottom:10px;
 }
 .footer-bs .footer-ns p { font-size:12px; color: #000; }
+.footer-bs .footer-ns button {height: 34px;}
 
 .footer-bs .row .logo{
   width: 150px;

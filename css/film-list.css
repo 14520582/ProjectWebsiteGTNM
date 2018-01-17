@@ -29,7 +29,7 @@
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-  margin-top: 20px;
+  margin: 20px 8px 0 8px;
 }
 
 .film-item{
@@ -55,7 +55,10 @@
   top: 138px;
   width: 25px;
   height: auto;
-  background-color: #663333;
+}
+
+.film-list > div > .back, .next:hover{
+  cursor: hand;
 }
 
 .film-list > div > .back{
@@ -81,7 +84,7 @@
   overflow-y: scroll;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
-  text-align: justify;
+  text-align: left;
   padding: 0 10px;
   transition: height 1s linear;
 }
