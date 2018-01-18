@@ -1,9 +1,16 @@
-var contentWidth = 400;
+var contentHeight = 350;
 
 $(document).ready(function(){
-  $('body').animate({
-    scrollTop: $('.navbar').offset().top
-  }, 2000);
+  var video = document.getElementById('film-video');
+
+  video.onloadedmetadata = function(){
+     var videoHeight = $('.video-container > video').height();
+
+     // scroll to view video in the middle of screen
+     $('body').animate({
+       scrollTop: $('.video-container > video').offset().top - getAutoScrollTop()
+     }, 2000);
+  };
 
   $('.video-menu .content').css('top', getContentBottom());
 
@@ -17,8 +24,15 @@ $(document).ready(function(){
   });
 });
 
+
+function getAutoScrollTop(){
+  var top = (window.innerHeight - $('.video-container > video').height()) / 2;
+  console.log(window.innerHeight + '; ' + $('.video-container > video').height());
+  return (top > 0) ? top : 0;
+}
+
 function getContentTop(){
-  return window.innerHeight - contentWidth;
+  return window.innerHeight - contentHeight;
 }
 
 function getContentBottom(){
